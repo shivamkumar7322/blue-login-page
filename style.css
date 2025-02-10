@@ -16,6 +16,21 @@ body {
     height: 100vh;
 }
 
+h2 {
+    background-color: red;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red, blue, yellow);
+    color: white;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    top: -15px;
+    border-radius: 8px;
+    box-shadow: #333 2px 2.5px 3px 2px;
+    border: double 2px;
+}
+
+
 .container {
     background-color: #fff;
     border-radius: 30px;
